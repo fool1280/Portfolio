@@ -10,6 +10,42 @@ export default function Projects() {
                 <Row className="mt-5">
                     <Col className="d-flex" sm="6">
                         <Card className="flex-fill border border-dark" style={{ width: '100%' }}>
+                            <Card.Img className="border-bottom border-dark" variant="top" src="/images/iscroller.png" ></Card.Img>
+                            <Card.Body className="d-flex flex-column">
+                                <Card.Title>iScroller</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">Python with OpenCV libraries</Card.Subtitle>
+                                <Card.Text>
+                                    An application to scroll screen using OpenCV to track eye motions.
+                                    <br/>
+                                    Thanks to my teammates who have always been my side in TAMU Hackathon 2020. We didn't get an award, but we were proud of us. (And we got a reference to a professor in Computer Vision!)
+                                </Card.Text>
+                                <div className="mt-auto">
+                                    <Card.Link href="https://devpost.com/software/iscroller">Devpost</Card.Link>
+                                    <Card.Link href="https://github.com/Yoshinese/iScroller">Github</Card.Link>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col className="d-flex" sm="6">
+                        <Card className="flex-fill border border-dark" style={{ width: '100%' }}>
+                            <Card.Img className="border-bottom border-dark" variant="top" src="/images/colorfind.png" ></Card.Img>
+                            <Card.Body className="d-flex flex-column">
+                                <Card.Title>ColorFind</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted">Python with Google Vision API</Card.Subtitle>
+                                <Card.Text>
+                                    A simple application using Google Vision API to help detect colors. Main purpose is to improve colorblind people life experiences.
+                                </Card.Text>
+                                <div className="mt-auto">
+                                    <Card.Link  href="https://devpost.com/software/tamuhack2020">Devpost</Card.Link>
+                                    <Card.Link  href="https://github.com/fool1280/TAMUHack2020">Github</Card.Link>
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className="mt-5">
+                    <Col className="d-flex" sm="6">
+                        <Card className="flex-fill border border-dark" style={{ width: '100%' }}>
                             <Card.Img className="border-bottom border-dark" variant="top" src="/images/ijobs.png" ></Card.Img>
                             <Card.Body className="d-flex flex-column">
                                 <Card.Title>iJobs</Card.Title>
