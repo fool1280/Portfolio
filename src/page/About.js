@@ -1,11 +1,14 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import { Container } from 'react-bootstrap'
 
 export default function About() {
     return (
         <div>
             <Navigation/>
-            <h1>This is About!</h1>
+            <Container>
+                
+            </Container>
         </div>
     )
 }
