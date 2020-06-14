@@ -9,6 +9,9 @@ export default function About() {
             <div className="d-flex align-items-center min-vh-100" style={{backgroundColor: "rgba(32, 34, 38)", color: "white", minHeight: "50%"}}>
                 <Container>
                     <Row>
+                        <h1>My Story...</h1>
+                    </Row>
+                    <Row className="mt-5">
                         <Col sm={4}>
                             <img className="rounded" src="/images/user.jpg" style={{width: "100%"}}></img>
                         </Col>
@@ -24,6 +27,10 @@ export default function About() {
                                 {`Besides coding, I'm also interested in photography. In high school, I have been produced media contents for the sports teams. Summer 2019, I had the chance to work with two professional basketball players: Zach Auguste & Quincy Ford.`}
                             </p>
                         </Col>
+                    </Row>
+                    <Row className="mt-5">
+                        <h1>Skills:</h1>
+                        
                     </Row>
                 </Container>
             </div>
