@@ -21,7 +21,7 @@ export default function About() {
                             <img className="rounded" src="/images/user.jpg" style={{width: "100%"}}></img>
                             <div className="d-flex flex-row justify-content-center">
                                 <FontAwesomeIcon className="m-2" type="button" icon={faLinkedin} size="4x" onClick={() => openNewTab("https://www.linkedin.com/in/anh-nguyen-861625179/")}/>
-                                <FontAwesomeIcon className="m-2" type="button" icon={faGithub} size="4x" onClick={() => openNewTab("https://www.linkedin.com/in/anh-nguyen-861625179/")}/>
+                                <FontAwesomeIcon className="m-2" type="button" icon={faGithub} size="4x" onClick={() => openNewTab("https://github.com/fool1280")}/>
                             </div>
                         </Col>
                         <Col sm={8} className="d-flex flex-column">
